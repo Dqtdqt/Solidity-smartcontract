@@ -1,0 +1,108 @@
+{
+	"compiler": {
+		"version": "0.5.13+commit.5b0b510c"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"constant": true,
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "balanceReceive",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "totalBalance",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "numpayment",
+						"type": "uint256"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [],
+				"name": "getBalance",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [],
+				"name": "receiveMoney",
+				"outputs": [],
+				"payable": true,
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"internalType": "address payable",
+						"name": "_to",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_amount",
+						"type": "uint256"
+					}
+				],
+				"name": "withdrawMoney",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/artifacts/struct.sol": "mappingStruct"
+		},
+		"evmVersion": "petersburg",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/artifacts/struct.sol": {
+			"keccak256": "0x3e07b146f553ed4d9b293daf6c5fab0d3ec99dad644d85347d5c3c1f07dbdd5c",
+			"urls": [
+				"bzz-raw://9a71c49f10cd301d4364ce59d0eaa934969bbc3fd5b6959e4b1d98289405e358",
+				"dweb:/ipfs/QmanPQLDxZ4nqKEMdiEagtSAw1pNTRkT1vKJfmpXYiWMh7"
+			]
+		}
+	},
+	"version": 1
+}

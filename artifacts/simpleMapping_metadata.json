@@ -1,0 +1,74 @@
+{
+	"compiler": {
+		"version": "0.5.13+commit.5b0b510c"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"constant": true,
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "myMapping",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_index",
+						"type": "uint256"
+					}
+				],
+				"name": "setValue",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/10_mappingExample.sol": "simpleMapping"
+		},
+		"evmVersion": "petersburg",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/10_mappingExample.sol": {
+			"keccak256": "0xc2b73d28790143dc670ee913daf55ba94782e54fdc62692a38ea06ca63107535",
+			"urls": [
+				"bzz-raw://66bf323267ed6de5e8b035a332ab16ed916d3b76d92d4f5fc4f5ba26acfb270c",
+				"dweb:/ipfs/QmRFc1aqkvnSkThzaL1xTK8wXAGotFRL8ihTSAy8YtJQKE"
+			]
+		}
+	},
+	"version": 1
+}

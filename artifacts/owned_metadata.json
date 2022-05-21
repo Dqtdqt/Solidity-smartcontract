@@ -1,0 +1,44 @@
+{
+	"compiler": {
+		"version": "0.5.13+commit.5b0b510c"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/23_inheritanceModifierExmplae2.sol": "owned"
+		},
+		"evmVersion": "petersburg",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/23_inheritanceModifierExmplae2.sol": {
+			"keccak256": "0xb7a18d7c69c208462dd93cc7d8d965bb5b7399c71385680541a2fdbf0d375d5f",
+			"urls": [
+				"bzz-raw://a586ec346aad6a21942ead3da7475e7eaa57a147f2a403d512a4510810337b68",
+				"dweb:/ipfs/QmZkXQcazGk6Rssy45fLFXooVLymeDbVNCXCaxZ6wNsmot"
+			]
+		}
+	},
+	"version": 1
+}

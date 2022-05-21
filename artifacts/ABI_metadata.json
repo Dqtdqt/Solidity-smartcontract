@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.12+commit.f00d7308"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "myStr",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_mystring",
+						"type": "string"
+					}
+				],
+				"name": "setNewValue",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/27_ABIExample.sol": "ABI"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/27_ABIExample.sol": {
+			"keccak256": "0x1520dcd87e31656abedd58b6ff84fd8e5384e8966b5bf57de20c811728ce1d18",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://710d09d29e4e0dfbb02308cb6b4aa7854ce14939f2ef4f64026f280d4a87e3d9",
+				"dweb:/ipfs/QmXqibCFHFNNQS4YTDa5JSRCANjcmcUiHYbjitbE1jnZwi"
+			]
+		}
+	},
+	"version": 1
+}

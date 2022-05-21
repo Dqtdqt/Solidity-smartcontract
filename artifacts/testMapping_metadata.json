@@ -1,0 +1,113 @@
+{
+	"compiler": {
+		"version": "0.5.13+commit.5b0b510c"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"constant": true,
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "balanceAddress",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "balanceTotal",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "balanceReceive",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "numpayment",
+						"type": "uint256"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [],
+				"name": "getBalance",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [],
+				"name": "receiveMoney",
+				"outputs": [],
+				"payable": true,
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"internalType": "address payable",
+						"name": "_to",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_amount",
+						"type": "uint256"
+					}
+				],
+				"name": "whithdraw",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/16_Mapping3.sol": "testMapping"
+		},
+		"evmVersion": "petersburg",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/16_Mapping3.sol": {
+			"keccak256": "0x081c7d983d99c7f3aaf400e9623041bf6a6b8b16efe77ae48d951f214447e3b2",
+			"urls": [
+				"bzz-raw://8cf2cd5c39df4e1056dd0c28a8d8982de2746a87071a82d7158482dc3b98cd1d",
+				"dweb:/ipfs/QmbZqfv79rPZHGRSYgTkfmWCs9iyBqGvZMoAPbnDCLQSmU"
+			]
+		}
+	},
+	"version": 1
+}

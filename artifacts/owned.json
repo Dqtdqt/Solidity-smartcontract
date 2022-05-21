@@ -1,0 +1,62 @@
+{
+	"deploy": {
+		"VM:-": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"main:1": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"ropsten:3": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"rinkeby:4": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"kovan:42": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"görli:5": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"Custom": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		}
+	},
+	"data": {
+		"bytecode": {
+			"linkReferences": {},
+			"object": "6080604052348015600f57600080fd5b50336000806101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff160217905550603e80605d6000396000f3fe6080604052600080fdfea265627a7a723158203db04893eebe0b10a76eb424f7e66430e3c93c1101a4be340ed5737256fb737764736f6c634300050d0032",
+			"opcodes": "PUSH1 0x80 PUSH1 0x40 MSTORE CALLVALUE DUP1 ISZERO PUSH1 0xF JUMPI PUSH1 0x0 DUP1 REVERT JUMPDEST POP CALLER PUSH1 0x0 DUP1 PUSH2 0x100 EXP DUP2 SLOAD DUP2 PUSH20 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF MUL NOT AND SWAP1 DUP4 PUSH20 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF AND MUL OR SWAP1 SSTORE POP PUSH1 0x3E DUP1 PUSH1 0x5D PUSH1 0x0 CODECOPY PUSH1 0x0 RETURN INVALID PUSH1 0x80 PUSH1 0x40 MSTORE PUSH1 0x0 DUP1 REVERT INVALID LOG2 PUSH6 0x627A7A723158 KECCAK256 RETURNDATASIZE 0xB0 0x48 SWAP4 0xEE 0xBE SIGNEXTEND LT 0xA7 PUSH15 0xB424F7E66430E3C93C1101A4BE340E 0xD5 PUSH20 0x7256FB737764736F6C634300050D003200000000 ",
+			"sourceMap": "30:222:0:-;;;74:61;8:9:-1;5:2;;;30:1;27;20:12;5:2;74:61:0;116:10;108:5;;:18;;;;;;;;;;;;;;;;;;30:222;;;;;;"
+		},
+		"deployedBytecode": {
+			"linkReferences": {},
+			"object": "6080604052600080fdfea265627a7a723158203db04893eebe0b10a76eb424f7e66430e3c93c1101a4be340ed5737256fb737764736f6c634300050d0032",
+			"opcodes": "PUSH1 0x80 PUSH1 0x40 MSTORE PUSH1 0x0 DUP1 REVERT INVALID LOG2 PUSH6 0x627A7A723158 KECCAK256 RETURNDATASIZE 0xB0 0x48 SWAP4 0xEE 0xBE SIGNEXTEND LT 0xA7 PUSH15 0xB424F7E66430E3C93C1101A4BE340E 0xD5 PUSH20 0x7256FB737764736F6C634300050D003200000000 ",
+			"sourceMap": "30:222:0:-;;;;;"
+		},
+		"gasEstimates": {
+			"creation": {
+				"codeDepositCost": "12400",
+				"executionCost": "20332",
+				"totalCost": "32732"
+			}
+		},
+		"methodIdentifiers": {}
+	},
+	"abi": [
+		{
+			"inputs": [],
+			"payable": false,
+			"stateMutability": "nonpayable",
+			"type": "constructor"
+		}
+	]
+}
