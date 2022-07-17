@@ -54,7 +54,7 @@ contract ("MyTokenSale test", async (accounts) => {
         let KycContractInstance = await KycContract.deployed();
         await KycContractInstance.setKyc(anotherAccount);
         
-        await expect(tokenSaleInstance.sendTransaction({form: anotherAccount, value: web3.utils.toWei("1","wei")})).to.be.fulfilled;
+        await expect(tokenSaleInstance.sendTransaction({from: anotherAccount, value: web3.utils.toWei("1","wei")})).to.be.fulfilled;
         await expect(balanceBefore+1).to.be.bignumber.equal(await instance.balanceOf.call(anotherAccount));
     })
 })
